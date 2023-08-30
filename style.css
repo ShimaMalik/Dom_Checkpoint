@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .like-btn {
+    color: black;
+  }
+  
+  .like-btn.active {
+    color: red;
+  }
+  
+  .total {
+    text-align: right;
+    font-weight: bold;
+  }
+
+ /* body{
+    background-color: bisque;
+  }
+
+  .item{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+  }
+
+  button{
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+  }
+
+  img{
+    width: 225px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+  }*/
